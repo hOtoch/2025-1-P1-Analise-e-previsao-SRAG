@@ -57,4 +57,8 @@ Todos tiveram resultados ruins, próximos de 50% de acurácia.
 
 # Classificação de gravidade
 
-TODO: Seguir o mesmo método do item anterior, mas tentando prever a evolução da doença (óbito ou alta, coluna EVOLUCAO)
+Segui o mesmo método do item anterior, mas tentando prever a evolução da doença (óbito ou alta, coluna EVOLUCAO). Mais uma vez, o resultado ficou bem ruim.
+
+TODO: Fazer testes com outros hiperparâmetros (podendo inclusive usar o GridSearchCV para isso)
+TODO: Fazer testes com outros algoritmos (Random Forest, XGBoost, etc.)
+TODO: Ao invés de prever diretamente a classe, usar o predict_proba para prever a probabilidade de óbito ou não e ajustar o threshold de classificação para obter a curva ROC e a AUC.
